@@ -2,6 +2,9 @@
 
 * directos—navigate,list,search,filter
 * drives—mount,en~un·crypt,snaps
+* prepare,parse,export
+* noting
+* settings & hardware
 
 # files
 

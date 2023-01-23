@@ -1,19 +1,27 @@
-#status (confict w/ gs—ghostscript)
-alias gs='git status -s'
-alias gS='git status'
+alias g=git
+
+alias gs='g status -s'
+#(confli't/gs—ghostscript)
+alias gS='g status'
 
 #checkout
-alias go='git checkout'
-alias gO='git checkout -b'
+alias go='g checkout'
+alias gO='g checkout -b'
+
+#diff
+alias gd="g diff"
 
 #add
-alias ga='git add'
-alias gA='git add -A'
+alias ga='g add'
+alias gA='g add -A'
 
 #commit
-alias gc='git commit -m'
-alias gC='git commit -m "gC"'
+alias gc='g commit -m'
+alias gC='g commit -m "gC"'
 
 #push
-alias gp='git push'
-alias gP='git push origin'
+alias gp='g push'
+alias gP='g push origin'
+
+alias gAC='gA && gC'
+alias gACP='gA && gC && gP'
